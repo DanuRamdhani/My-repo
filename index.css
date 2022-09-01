@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+/* header */
+nav {
+    background-color: rgb(120, 122, 145);
+    display: flex;
+    z-index: 5;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: rgb(20, 30, 97);
+    margin-left: 100px;
+}
+
+nav ul {
+    display: flex;
+    width: 50%;
+    margin: 20px 0px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+    font-size: 20px;
+}
+
+.bar-icon {
+    display: none;
+    height: fit-content;
+    width: fit-content;
+}
+
+/* home */
+.home {
+    background-image: url(./Image/background.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 90vh;
+    color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+}
+
+.home h1 {
+    font-size: 10vh;
+    margin-left: 80px;
+}
+
+/* about */
+.container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+}
+
+.myfoto {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+.paragraf {
+    text-align: justify;
+    margin: 30px;
+} 
+
+/* project */
+.container-project {
+    height: 100vh;
+    background-color:  rgb(20, 30, 97);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-project h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    color: rgb(238, 238, 238);
+}
+
+.project-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
+.project-img a {
+    width: 25%;
+    margin: 0px 20px;
+}
+
+.project-img a img {
+    border-radius: 5px;
+}
+
+/* contact */
+.contact {
+    display: flex;
+    align-items: center;
+    background-color: rgb(26, 26, 26);
+    height: 30vh;
+    color: rgb(238, 238, 238);
+}
+
+.contact h1 {
+    margin-left: 80px;
+}
+
+.right-side p a {
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+}
+
+.icon {
+    display: flex;
+    margin-top: 20px;
+}
+
+.icon a {
+    width: auto;
+    margin-right: 20px;
+}
+
+.icon a i {
+    color: rgb(238, 238, 238);
+    font-size: 25px;
+}
